@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1547400037 source:c:\users\p\documents\studia_cpp\lab3\main.cpp
+	<iostream>
+	"AVL_Main_Implementation.h"
+
+1547399804 c:\users\p\documents\studia_cpp\lab3\avl.h
+
+1547400048 c:\users\p\documents\studia_cpp\lab3\avl_main_implementation.h
+	<iostream>
+	"AVL.h"
+
