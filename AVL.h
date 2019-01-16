@@ -10,14 +10,16 @@ class Node
     Node* left;
     int height;
 
+
+
     public:
-        Node(Node* newRight, Node* newLeft,K newKey, I newInfo)
+        Node(Node* newRight, Node* newLeft,K newKey, I newInfo, int newHeight = 1)
         {
             right = newRight;
             left = newLeft;
             key = newKey;
             info = newInfo;
-            height = 1;
+            height = newHeight;
         }
 
         I Get_Info()
